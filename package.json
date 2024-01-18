@@ -1,0 +1,27 @@
+{
+  "name": "com.baawolf.hierarchyseparator",
+  "displayName": "HierarchySeparator",
+  "version": "0.0.0",
+  "unity": "2021.3",
+  "description": "Creates an aesthetic hierarchy separator for the Unity scene inside the Editor",
+  "keywords": [
+    "unity",
+	"unity3d",
+	"upm",
+    "baawolf",
+    "utility"
+  ],
+  "homepage": "https://github.com/baawolf/HierarchySeparator.git",
+  "bugs": {
+    "url": "https://github.com/baawolf/HierarchySeparator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/baawolf/HierarchySeparator.git"
+  },
+  "license": "MIT",
+  "author": "BaaWolf (https://baawolf.com)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
