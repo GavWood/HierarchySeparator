@@ -14,7 +14,11 @@ Creates an aesthetic hierarchy separator for the Unity scene inside the Editor
 
 ## How to use
 
-*Work In Progress*
+Add a blank GameObject to your scene and add the MonoBehaviour script: HierarchySeparator.cs from the library.
+This will change the label on the GameObject to a divider.
+
+![image](https://github.com/GavWood/HierarchySeparator/assets/17795588/10b847a1-f5b7-429e-b8ac-8e5324df4876)
+
 
 ## Install
 
