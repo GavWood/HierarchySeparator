@@ -12,10 +12,7 @@ public class HierarchySeparator : MonoBehaviour
 
     private void OnEnable()
     {
-        if (Application.isPlaying)
-        {
-            gameObject.SetActive(false);
-        }
+        gameObject.SetActive(false);
     }
 }
 
