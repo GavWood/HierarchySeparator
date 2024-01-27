@@ -12,6 +12,8 @@ public class HierarchySeparator : MonoBehaviour
 
     private void OnEnable()
     {
+        transform.position = Vector3.zero;
+
         gameObject.SetActive(false);
     }
 }
