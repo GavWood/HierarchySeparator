@@ -30,7 +30,7 @@ Open `Packages/manifest.json` with your favorite text editor. Add following line
 ```json
 {
   "dependencies": {
-    "com.baawolf.HierarchySeparator": "https://github.com/baawolf/HierarchySeparator.git"
+    "com.baawolf.HierarchySeparator": "https://github.com/gavwood/HierarchySeparator.git"
   }
 }
 ```
@@ -39,7 +39,7 @@ Open `Packages/manifest.json` with your favorite text editor. Add following line
 
 Open Package Manager from Unity's Window menu.
 
-Choose the option: Add package from git URL, and add (https://github.com/baawolf/HierarchySeparator.git)
+Choose the option: Add package from git URL, and add (https://github.com/gavwood/HierarchySeparator.git)
 
 
 
