@@ -10,11 +10,31 @@ public class HierarchySeparator : MonoBehaviour
         gameObject.name = separatorLabel;
     }
 
-    private void OnEnable()
+    private void OnValidate()
     {
-        transform.position = Vector3.zero;
+        // Make the GameObject inactive
+        if (gameObject.activeSelf)
+        {
+            gameObject.SetActive(false);
+        }
 
-        gameObject.SetActive(false);
+        // Set the position
+        if (transform.position != Vector3.zero)
+        {
+            transform.position = Vector3.zero;
+        }
+
+        // Reset rotation to identity
+        if (transform.rotation != Quaternion.identity)
+        {
+            transform.rotation = Quaternion.identity;
+        }
+
+        // Set the tag to EditorOnly
+        if (gameObject.tag != "EditorOnly")
+        {
+            gameObject.tag = "EditorOnly";
+        }
     }
 }
 
