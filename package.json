@@ -6,8 +6,8 @@
   "description": "Creates an aesthetic hierarchy separator for the Unity scene inside the Editor",
   "keywords": [
     "unity",
-	"unity3d",
-	"upm",
+    "unity3d",
+    "upm",
     "baawolf",
     "utility"
   ],
@@ -21,6 +21,7 @@
   },
   "license": "MIT",
   "author": "BaaWolf (https://baawolf.com)",
+  "changelogUrl": "https://github.com/gavwood/HierarchySeparator/blob/main/CHANGELOG.md",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
